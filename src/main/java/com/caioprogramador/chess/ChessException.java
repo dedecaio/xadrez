@@ -1,4 +1,7 @@
 package com.caioprogramador.chess;
 
-public class ChessException {
+public class ChessException extends RuntimeException{
+    public ChessException(String msg){
+        super(msg);
+    }
 }
