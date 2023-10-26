@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Little Improvement in board printing">
+    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Move pieces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697547148176</updated>
       <workItem from="1697547149190" duration="1489000" />
-      <workItem from="1698320939973" duration="9108000" />
+      <workItem from="1698320939973" duration="9454000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -148,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698349412330</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Move pieces">
+      <option name="closed" value="true" />
+      <created>1698350457134</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698350457134</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +168,7 @@
     <MESSAGE value="Creating a BoardException" />
     <MESSAGE value="Doing ChessException and ChessPosition" />
     <MESSAGE value="Little Improvement in board printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Little Improvement in board printing" />
+    <MESSAGE value="Move pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move pieces" />
   </component>
 </project>
