@@ -1,6 +1,8 @@
 package com.caioprogramador.chess;
 
-public class ChessException extends RuntimeException{
+import com.caioprogramador.boardgame.BoardException;
+
+public class ChessException extends BoardException {
     public ChessException(String msg){
         super(msg);
     }
