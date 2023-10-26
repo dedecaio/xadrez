@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Creating the classes">
+    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Making the Board, Piece and Position.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/Color.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697547148176</updated>
       <workItem from="1697547149190" duration="1489000" />
-      <workItem from="1698320939973" duration="2865000" />
+      <workItem from="1698320939973" duration="3706000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -79,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697548021665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Making the Board, Piece and Position.">
+      <option name="closed" value="true" />
+      <created>1698343754954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698343754954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +98,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <MESSAGE value="Creating the classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating the classes" />
+    <MESSAGE value="Making the Board, Piece and Position." />
+    <option name="LAST_COMMIT_MESSAGE" value="Making the Board, Piece and Position." />
   </component>
 </project>

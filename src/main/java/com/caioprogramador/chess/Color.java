@@ -1,4 +1,6 @@
 package com.caioprogramador.chess;
 
-public class Color {
+public enum Color {
+    BLACK,
+    WHITE;
 }
