@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Doing the Chess layer and printing the board using a static method at UI class.">
+    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Creating and Placing pieces on the board">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/BoardException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/BoardException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697547148176</updated>
       <workItem from="1697547149190" duration="1489000" />
-      <workItem from="1698320939973" duration="4796000" />
+      <workItem from="1698320939973" duration="5959000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -116,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698344590117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Creating and Placing pieces on the board">
+      <option name="closed" value="true" />
+      <created>1698346118356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698346118356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +132,7 @@
     <MESSAGE value="Creating the classes" />
     <MESSAGE value="Making the Board, Piece and Position." />
     <MESSAGE value="Doing the Chess layer and printing the board using a static method at UI class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Doing the Chess layer and printing the board using a static method at UI class." />
+    <MESSAGE value="Creating and Placing pieces on the board" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating and Placing pieces on the board" />
   </component>
 </project>

@@ -1,4 +1,9 @@
 package com.caioprogramador.boardgame;
 
-public class BoardException {
+import java.io.Serial;
+
+public class BoardException extends RuntimeException{
+    public BoardException(String msg){
+        super(msg);
+    }
 }
