@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Switching player each turn">
+    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Handling Captured Pieces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPosition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <updated>1697547148176</updated>
       <workItem from="1697547149190" duration="1489000" />
       <workItem from="1698320939973" duration="13818000" />
-      <workItem from="1698776281741" duration="2435000" />
+      <workItem from="1698776281741" duration="3762000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -188,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698777962365</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Handling Captured Pieces">
+      <option name="closed" value="true" />
+      <created>1698778782318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698778782318</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +217,8 @@
     <MESSAGE value="Possible moves of a piece" />
     <MESSAGE value="Implementing possible moves of King" />
     <MESSAGE value="Switching player each turn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switching player each turn" />
+    <MESSAGE value="Handling Captured Pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling Captured Pieces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
