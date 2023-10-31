@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Possible moves of a piece">
+    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Implementing possible moves of King">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/boardgame/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/King.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.caioprogramador.application.Program" />
@@ -88,7 +82,7 @@
       <updated>1697547148176</updated>
       <workItem from="1697547149190" duration="1489000" />
       <workItem from="1698320939973" duration="13818000" />
-      <workItem from="1698776281741" duration="989000" />
+      <workItem from="1698776281741" duration="1532000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -178,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698353875620</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Implementing possible moves of King">
+      <option name="closed" value="true" />
+      <created>1698777328611</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698777328611</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +198,8 @@
     <MESSAGE value="Move pieces" />
     <MESSAGE value="Handling exceptions" />
     <MESSAGE value="Possible moves of a piece" />
-    <option name="LAST_COMMIT_MESSAGE" value="Possible moves of a piece" />
+    <MESSAGE value="Implementing possible moves of King" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing possible moves of King" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
