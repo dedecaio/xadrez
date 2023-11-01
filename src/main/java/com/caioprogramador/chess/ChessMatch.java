@@ -5,7 +5,6 @@ import com.caioprogramador.boardgame.Piece;
 import com.caioprogramador.boardgame.Position;
 import com.caioprogramador.chess.pieces.*;
 
-import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -117,7 +116,7 @@ public class ChessMatch {
         }
         String[] types = {"B", "N", "R", "Q"};
         if(Arrays.stream(types).noneMatch(s -> s.contains(type))){
-            throw new InvalidParameterException("Invalid type for promotion");
+            return promoted;
         }
 
         Position pos = promoted.getChessPosition().toPosition();

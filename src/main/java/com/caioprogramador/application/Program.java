@@ -5,10 +5,8 @@ import com.caioprogramador.chess.ChessMatch;
 import com.caioprogramador.chess.ChessPiece;
 import com.caioprogramador.chess.ChessPosition;
 
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.security.InvalidParameterException;
+import java.util.*;
 
 
 public class Program {
@@ -41,7 +39,12 @@ public class Program {
                     captured.add(capturedPiece);
                 }if(chessMatch.getPromoted() != null){
                     System.out.print("Enter piece for promotion (B/N/R/Q): ");
-                    String type = sc.nextLine();
+                    String type = sc.nextLine().toUpperCase();
+                    while(!type.equals("B") && !type.equals("N") && !type.equals("Q")){
+                        System.out.print("Invalid Parameter! Enter piece for promotion (B/N/R/Q): ");
+                        type = sc.nextLine().toUpperCase();
+                    }
+
                     chessMatch.replacePromotedPiece(type);
                 }
             }

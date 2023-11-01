@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Special move - En Passant">
+    <list default="true" id="86a01f2b-9da3-462b-8b8d-2925aae95e77" name="Changes" comment="Special move - Promotion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/caioprogramador/chess/ChessMatch.java" afterDir="false" />
@@ -82,7 +82,7 @@
       <workItem from="1697547149190" duration="1489000" />
       <workItem from="1698320939973" duration="13818000" />
       <workItem from="1698776281741" duration="5116000" />
-      <workItem from="1698837747833" duration="7643000" />
+      <workItem from="1698837747833" duration="8619000" />
     </task>
     <task id="LOCAL-00001" summary="Initial">
       <option name="closed" value="true" />
@@ -268,11 +268,30 @@
       <option name="project" value="LOCAL" />
       <updated>1698860347057</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Special move - Promotion">
+      <option name="closed" value="true" />
+      <created>1698872629631</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1698872629631</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
@@ -298,7 +317,8 @@
     <MESSAGE value="Queen" />
     <MESSAGE value="Special move - Castling" />
     <MESSAGE value="Special move - En Passant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Special move - En Passant" />
+    <MESSAGE value="Special move - Promotion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Special move - Promotion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
